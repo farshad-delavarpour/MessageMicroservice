@@ -1,4 +1,4 @@
-﻿namespace MessageCotracts
+﻿namespace MessageContracts
 {
     public interface IInvoiceCreated
     {
