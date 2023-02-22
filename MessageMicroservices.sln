@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoiceMicroservice", "Invo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMicroservice", "PaymentMicroservice\PaymentMicroservice.csproj", "{1C95216E-0B33-4E0A-AA91-8EC5CE9B78FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{3A7E9B26-51C2-462E-8DA9-2DA81A12E1D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1C95216E-0B33-4E0A-AA91-8EC5CE9B78FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C95216E-0B33-4E0A-AA91-8EC5CE9B78FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C95216E-0B33-4E0A-AA91-8EC5CE9B78FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7E9B26-51C2-462E-8DA9-2DA81A12E1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7E9B26-51C2-462E-8DA9-2DA81A12E1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7E9B26-51C2-462E-8DA9-2DA81A12E1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7E9B26-51C2-462E-8DA9-2DA81A12E1D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,6 +14,7 @@ var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
 var source = new CancellationTokenSource(TimeSpan.FromSeconds(10));
 await busControl.StartAsync(source.Token);
 Console.WriteLine("Invoice Microservice Now Listening");
+
 try
 {
     while (true)
