@@ -1,5 +1,6 @@
 ﻿using MassTransit;
 using MessageContracts;
+using TestClient;
 
 Console.WriteLine("Waiting while consumers initialize.");
 await Task.Delay(3000); //because the consumers need to start first
@@ -30,6 +31,7 @@ finally
 {
     await busControl.StopAsync();
 }
+
 
 static async Task SendRequestForInvoiceCreation(IPublishEndpoint publishEndpoint)
 {
